@@ -34,7 +34,8 @@
         "friendsofphp/php-cs-fixer": "^3.5"
     },
     "autoload": {
-        "psr-4": { "Alipay\\OpenAPISDK\\" : "v3/src/" }
+        "psr-4": { "Alipay\\OpenAPISDK\\" : "v3/src/" },
+        "files": ["v2/AopSdk.php"]
     },
     "autoload-dev": {
         "psr-4": { "Alipay\\OpenAPISDK\\Test\\" : "v3/test/" }
