@@ -91,7 +91,11 @@ class AopClient
     public function getSignContent($params)
     {
         ksort($params);
-        unset($params['sign']);
+        try {
+            unset($params['sign']);
+        }catch (\Exception $e){
+
+        }
 
         $stringToBeSigned = "";
         $i = 0;
