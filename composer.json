@@ -1,6 +1,6 @@
 {
     "name": "linkworld/alipaysdk-openapi",
-    "version": "2.4.0.2",
+    "version": "2.4.0.5",
     "description": "支付宝开放平台v3协议文档，兼容了v2版本sdk的自动引入",
     "keywords": [
         "openapitools",
